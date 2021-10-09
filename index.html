@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link href="./file/webfonts/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./file/index.css">
+  <link rel='icon' href="img/B.png" />
+  <title>Portfolio</title>
+</head>
+
+<body id="myDIV" class="shadow-lg rounded">
+  <div id="Demo" style="display: none;"></div>
+  <div class="container">
+    <div class="row">
+      <button class="btnav navbar-toggler bg-primary" onclick="display()" type="button" value="1" data-bs-toggle="collapse" data-bs-target="#navbar-example3" aria-controls="navbar-example3" aria-expanded="false" aria-label="Toggle navigation">
+        <span <i class="fas fa-bars navbar-toggler-icon  text-dark"></i></span>
+      </button>
+      <aside id="aside-left" class="aside-left col-sm-12 col-md-5 col-xl-3">
+        <nav id="navbar-example3" class="navbar navbar-light flex-column align-items-stretch shadow-lg p-3 rounded">
+          <div class="im text-center pb-5">
+            <img src="./img/undraw_profile_pic_ic5t.svg">
+          </div>
+          <nav class="nav nav-pills flex-column table ">
+            <a class="pc nav-link fs-5" href="#About"><span><i class="fas fa-id-card pe-5"></i></span>About
+              Me</a>
+            <hr>
+            <a class="nav-link fs-5" href="#Portfolio"><span><i class="fas fa-briefcase pe-5"></i></span>Portfolio</a>
+            <hr>
+            <a class="nav-link fs-5" href="#Skills"><span><i class="fas fa-cog pe-5"></i></span>Skills</a>
+            <hr>
+            <a class="nav-link fs-5" href="#Resume"><span><i class="fas fa-bars pe-5"></i></span>Resume</a>
+            <hr>
+            <a class="nav-link fs-5" href="#Contact"><span><i class="fas fa-envelope pe-5"></i></span>Contact</a>
+          </nav>
+        </nav>
+      </aside>
+      <!--________________________________________________________________________aside-right__________________________________  -->
+
+      <aside id="aside-right" class="aside-right col-sm-12 col-md-6 col-xl-8 " data-bs-spy="scroll"
+        data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+        <div class="row">
+
+
+          <!-- <div class="sticky col-sm-12 col-md-12 col-xl-12 shadow-lg p-3 bg-body rounded text-center">
+                        <td><i class="fab fa-linkedin-in"></i></td>
+                        <td><i class="fab fa-facebook"></i></td>
+                        <td><i class="fab fa-github"></i></td>
+                    </div> -->
+          <!--________________________________________________________________________About__________________________________  -->
+          <div id="About" class="col-12 shadow-lg p-3 mb-5  rounded">
+            <p class="fa-card fs-3 w-25 "><span><i class="fas fa-id-card p-2"></i></span>About Me</p>
+            <p class="fs-1 text-center">Hey, I'm Beshoy Fawzi</p>
+            <p class="fs-5">I'm a <span class="info">full-stack web developer and WordPress Developer</span>
+              and am still in the process of gaining more experience through more years
+              My educational background possesses a bachelor’s degree in management information systems.
+              take courses in web development and software engineering effectively makes me more skilled
+              in this field to work in any circumstances.
+              I am strong in front-end coding. I like to play with codes and results in the best output
+              from my work. I have mastered in web languages like<span class="info"> PHP, HTML, CSS,
+                bootstrap, and js</span>.
+            </p>
+            <hr />
+            <p class="fs-3 text-center text-primary">Why Work With Me?</p>
+
+            <table class="t text-center m-auto">
+              <tr>
+                <td>
+                  <p class="fs-5">Analytical work<span class="text-primary"><i class="fas fa-check"></i></span>Results
+                    driven</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="fs-5">Clear communicato<span class="text-primary"><i
+                        class="fas fa-check"></i></span>Deadline conscious</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="fs-5">Strong interpersonal skills<span class="text-primary"><i
+                        class="fas fa-check"></i></span>Big-picture problem solver</p>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+          <!--________________________________________________________________________Portfolio__________________________________  -->
+
+          <div id="Portfolio" class="col-12 shadow-lg p-3 mb-5  rounded">
+            <p class="fas-briefcase fs-3 w-25 "><span><i class="fas fa-briefcase p-2"></i></span>Portfolio</p>
+            <div class="row g-2 d-flex justify-content-center text-center">
+              <div class="undraw bg-primary col-5  mx-2">
+                <img src="./img/undraw_experience_design_eq3j.svg">
+                <div class="caption">
+                  <p class="fs-1">bbbbb</p>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p>css | html</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+              </div>
+              <div class="undraw bg-danger col-5">
+                <img src="./img/undraw_heatmap_uyye.svg">
+                <div class="caption">
+                  <p class="fs-1">bbbbb</p>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p>css | html</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+              </div>
+              <div class="undraw bg-warning col-5 mx-2">
+                <img src="./img/undraw_static_website_0107.svg">
+                <div class="caption">
+                  <p class="fs-1">bbbbb</p>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p>css | html</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+              </div>
+              <div class="undraw bg-info col-5 ">
+                <img src="./img/undraw_wordpress_utxt.svg">
+                <div class="caption">
+                  <p class="fs-1">bbbbb</p>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p>css | html</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!--________________________________________________________________________"Skills__________________________________  -->
+
+          <div id="Skills" class="col-12 shadow-lg p-3 mb-5 rounded">
+
+            <p class="fas-cog fs-3 w-25 "><span><i class="fas fa-cog p-2"></i></span>Skills</p>
+
+            <section class="row row g-2 d-flex justify-content-center text-center">
+              <div class="col-md-3 mx-1"><img class="img-fluid" src="./img/html5-logo-31813.png"> </div>
+              <div class="col-md-4"><img class="img-fluid" src="./img/css.png"> </div>
+              <div class="col-md-3 mx-1"><img class="img-fluid" src="./img/bootstrap.png"> </div>
+              <div class="col-md-4"><img class="img-fluid" src="./img/sass-1-logo-png-transparent.png"> </div>
+              <div class="col-md-3 mx-1"><img class="img-fluid" src="./img/javascript-39393.png"> </div>
+              <div class="col-md-4"><img class="img-fluid" src="./img/jQuery.png"> </div>
+              <div class="col-md-3 mx-1"><img class="img-fluid" src="./img/react.png"> </div>
+              <div class="col-md-4"><img class="img-fluid" src="./img/angularjs.png"> </div>
+              <div class="col-md-3 mx-1"><img class="img-fluid" src="./img/mongodb-logo-png-transparent.png"> </div>
+              <div class="col-md-4"><img class="img-fluid" src="./img/javascript-node.png"> </div>
+            </section>
+          </div>
+          <!--________________________________________________________________________Resume__________________________________  -->
+
+          <div id="Resume" class="col-12 shadow-lg p-3 mb-5  rounded">
+            <p class="fas-bars fs-3 w-25"><span><i class="fas fa-bars p-2"></i></span>Resume</p>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="bt1 accordion-button fs-3 text-body" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Employment
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="line">
+                      <strong class="p-2">Production Crew Team Lead</strong>–DJM Productions (Toronto, Ontario)
+                      <p class="indate px-2"><b>August, 2016 - October, 2019</b></p>
+                      <p class="px-2">I led a team of 15 technicians to implement new practices focused on efficiency
+                        and crew
+                        morale. I created sustainable growth of freelancers through excellent execution of over 30 shows
+                        per year and my largest event was an 8 day festival that had over 12,000 attendees.</p>
+
+                    </div>
+                    <div class="line">
+                      <strong class="p-2">Journalist</strong>–FSU Interrobang Newspaper (London, ON)
+                      <p class="indate px-2"><b>September, 2014 - September, 2016</b></p>
+                      <p class="px-2">I grew our readership through creatively written articles that resonated well with
+                        the readers. I also edited colleague's stories to ensure they met our strict formatting guide
+                        and weekly deadlines. Several of my articles were nominated for industry awards.F</p>
+
+                    </div>
+                    <div class="line">
+                      <strong class="p-2">Storefront Service Manager</strong>–Walmart (London, ON)
+                      <p class="indate px-2"><b>September, 2013 - November, 2014</b></p>
+                      <p class="px-2">I increased Walmart Mastercard applications by 20% through clear and effective</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ____________________________________________________________ -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="bt2 accordion-button collapsed fs-3 text-body" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Education
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="line2">
+                      <strong class="p-2">Web Development Certification</strong>–Juno College of Technology
+                      <p class="indate px-2"><b>January 2020 - April 2020</b></p>
+                    </div>
+                    <div class="line2">
+                      <strong class="p-2">Part Time Javascript Fundamentals</strong>–Juno College of Technology
+                      <p class="indate px-2"><b>October 2019 - December 2019</b></p>
+                    </div>
+                    <div class="line2">
+                      <strong class="p-2">Full Time Web Development Fundamentals</strong>–Juno College of Technology
+                      <p class="indate px-2"><b>July 2019 - August 2019</b></p>
+                    </div>
+                    <div class="line2">
+                      <strong class="p-2">Audio Engineering Diploma</strong>–Fanshawe College
+                      <p class="indate px-2"><b>September 2014 - May 2016</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ___________________________________________________________________ -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="bt3 accordion-button collapsed fs-3 text-body" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Community Involvement
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="line3">
+                      <strong class="p-2">Kids in Danger Non-Profit </strong>–Chicago
+                      <p class="indate px-2"><b>March, 2020 - May, 2020</b></p>
+                      <p class="px-2">Part of the web development team for google chrome browser extension informing
+                        Amazon shoppers about safety concerns and product recalls for items they view. I helped refactor
+                        existing code and style components to client's specification while remaining WCAG compliant.</p>
+
+                    </div>
+                    <div class="line3">
+                      <strong class="p-2">Lucknow's Music in the Fields</strong>–(Lucknow, ON)
+                      <p class="indate px-2"><b>August, 2017 - Present</b></p>
+                      <p class="px-2">Part of the festival production crew for this non-profit music event that directly
+                        supports local charities, hospitals, schools, and regional projects. To date, the festival has
+                        donated over 1.3 million dollars to fight cystic fibrosis and is one of the largest Kinsmen
+                        events in Ontario</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--________________________________________________________________________Contact__________________________________  -->
+
+          <div id="Contact" class="col-12 shadow-lg p-3  rounded">
+            <p class="fas-envelope fs-3 w-25"><span><i class="fas fa-envelope p-2"></i></span>Contact</p>
+            <form class="row">
+              <div class="col-md-6">
+                <label for="validationDefault01" class="form-label">Name</label>
+                <input type="text" class="form-control border-primary" id="validationDefault01" placeholder="name"
+                  required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefaultUsername" class="form-label">Em <span class="text-primary">@</span>
+                  il</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                  <input type="email" class="form-control border-primary" id="validationDefaultUsername"
+                    placeholder="Email" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+              <div class="form-floating col-md-12 mt-5">
+                <textarea class="form-control border-primary" placeholder="Leave a comment here" style="height: 100px;"
+                  id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <div class="col-md-12 mt-5">
+                <button class="btn w-100" type="submit">Submit form</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </aside>
+      <!--________________________________________________________________________end_____________________________________________________ -->
+
+      <div class="sticky col-sm-12 col-md-1 col-xl-1">
+        <div class="f-switch form-check form-switch">
+          <label class="form-check-label" id="btdark" for="flexSwitchCheckChecked"><i class="fas fa-moon" ></i></label>
+          <label class="form-check-label" id="btlight" for="flexSwitchCheckChecked"><i class="fas fa-moon text-light " ></i></label>
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" onclick="colorFn()">
+        </div>
+        <section class="d-flex w-100 flex-column justify-content-center align-items-center">
+          <span class="bg-primary p-2"><i class="fab fa-facebook fs-3"></i></span>
+          <hr>
+          <span class="bg-primary p-2"><i class="fab fa-linkedin-in fs-3"></i></span>
+          <hr>
+          <span class="bg-primary p-2"><i class="fab fa-github fs-3"></i></span>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="file/index.js"></script>
+</body>
+
+</html>

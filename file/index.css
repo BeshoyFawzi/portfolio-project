@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pcolor {
+  color: white;
+}
+
+.container {
+  height: 600px;
+  font-family: Roboto, sans-serif;
+}
+
+.btnav {
+  display: none;
+}
+
+.aside-left {
+  background-color: #ffffff;
+  height: 580px;
+}
+
+.aside-left nav {
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+.aside-right::-webkit-scrollbar {
+  display: none;
+}
+
+.aside-right {
+  height: 570px;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+.aside-right #About {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+}
+
+.aside-right #About .fa-card {
+  background-color: #fe5e41;
+  color: white;
+  position: relative !important;
+  left: -2%;
+}
+
+.aside-right #About .info {
+  color: #fe5e41;
+}
+
+.aside-right #Portfolio {
+  background-color: #ffffff;
+}
+
+.aside-right #Portfolio .fas-briefcase {
+  background-color: #ff9f1c;
+  color: white;
+  position: relative !important;
+  left: -2%;
+}
+
+.aside-right #Portfolio .undraw {
+  position: relative;
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+.aside-right #Portfolio .undraw img {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.aside-right #Portfolio .undraw .caption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 63, 85, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.aside-right #Portfolio .undraw .caption:hover {
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.aside-right #Portfolio .undraw p {
+  position: relative;
+  left: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+  color: white;
+}
+
+.aside-right #Portfolio .undraw button {
+  position: relative;
+  left: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+}
+
+.aside-right #Portfolio .undraw:hover p {
+  left: 0;
+}
+
+.aside-right #Portfolio .undraw:hover button {
+  left: 0;
+}
+
+.aside-right #Portfolio .undraw:hover img {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.aside-right #Skills {
+  background-color: #ffffff;
+}
+
+.aside-right #Skills .fas-cog {
+  background-color: #ffbf69;
+  color: white;
+  position: relative !important;
+  left: -2%;
+}
+
+.aside-right #Skills img {
+  height: 100px;
+}
+
+.aside-right #Skills div:nth-child(1) {
+  background-color: rgba(103, 128, 159, 0.7);
+}
+
+.aside-right #Skills div:nth-child(2) {
+  background-color: rgba(54, 215, 183, 0.7);
+}
+
+.aside-right #Skills div:nth-child(3) {
+  background-color: rgba(165, 55, 253, 0.7);
+}
+
+.aside-right #Skills div:nth-child(4) {
+  background-color: rgba(150, 54, 148, 0.68);
+}
+
+.aside-right #Skills div:nth-child(5) {
+  background-color: rgba(238, 238, 0, 0.7);
+}
+
+.aside-right #Skills div:nth-child(6) {
+  background-color: rgba(118, 93, 105, 0.7);
+}
+
+.aside-right #Skills div:nth-child(7) {
+  background-color: rgba(78, 205, 196, 0.7);
+}
+
+.aside-right #Skills div:nth-child(8) {
+  background-color: rgba(219, 10, 91, 0.7);
+}
+
+.aside-right #Skills div:nth-child(9) {
+  background-color: rgba(134, 226, 213, 0.7);
+}
+
+.aside-right #Skills div:nth-child(10) {
+  background-color: rgba(0, 230, 64, 0.7);
+}
+
+.aside-right #Resume {
+  background-color: #ffffff;
+}
+
+.aside-right #Resume .fas-bars {
+  background-color: #44f0c2;
+  color: white;
+  position: relative !important;
+  left: -2%;
+}
+
+.aside-right #Resume .bt1 {
+  background-color: #fe5e41;
+}
+
+.aside-right #Resume .line {
+  height: auto;
+  border-left: 2px solid #fe5e41;
+  position: relative;
+}
+
+.aside-right #Resume .line .indate {
+  color: #fe5e41;
+}
+
+.aside-right #Resume .line strong::before {
+  content: "";
+  background-color: #fe5e41;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.5;
+  position: absolute;
+  top: 5px;
+  left: -8px;
+  border-radius: 50%;
+}
+
+.aside-right #Resume .bt2 {
+  background-color: #ff9f1c;
+}
+
+.aside-right #Resume .line2 {
+  height: auto;
+  border-left: 2px solid #ff9f1c;
+  position: relative;
+}
+
+.aside-right #Resume .line2 .indate {
+  color: #ff9f1c;
+}
+
+.aside-right #Resume .line2 strong::before {
+  content: "";
+  background-color: #ff9f1c;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.5;
+  position: absolute;
+  top: 5px;
+  left: -8px;
+  border-radius: 50%;
+}
+
+.aside-right #Resume .bt3 {
+  background-color: #ffbf69;
+}
+
+.aside-right #Resume .line3 {
+  height: auto;
+  border-left: 2px solid #ffbf69;
+  position: relative;
+}
+
+.aside-right #Resume .line3 .indate {
+  color: #ffbf69;
+}
+
+.aside-right #Resume .line3 strong::before {
+  content: "";
+  background-color: #ffbf69;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.5;
+  position: absolute;
+  top: 5px;
+  left: -8px;
+  border-radius: 50%;
+}
+
+.aside-right #Contact {
+  background-image: url(/img/undraw_Terms_re_6ak4.svg);
+  background-size: 100% 100%;
+}
+
+.aside-right #Contact .fas-envelope {
+  background-color: #6ea9f2;
+  color: white;
+  position: relative !important;
+  left: -2%;
+}
+
+.aside-right #Contact .btn {
+  background-color: #6ea9f2;
+}
+
+.sticky {
+  position: relative;
+}
+
+.sticky section {
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+
+.sticky .f-switch {
+  border-radius: 20px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.sticky .f-switch #btdark {
+  position: absolute;
+  top: -40px;
+  right: 60%;
+  color: black !important;
+}
+
+.sticky .f-switch #btlight {
+  position: absolute;
+  right: -30px;
+  color: black !important;
+}
+
+@media screen and (max-width: 761px) {
+  .sticky {
+    background-color: #0d6efd !important;
+    position: relative !important;
+  }
+  .sticky section {
+    height: 100px;
+    background-color: transition !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .sticky section span {
+    margin-left: 5% !important;
+  }
+  .sticky .f-switch {
+    position: absolute !important;
+    left: 0 !important;
+    top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .aside-left {
+    display: none;
+  }
+  .btnav {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .aside-left {
+    display: inline-block !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
